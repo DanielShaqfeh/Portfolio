@@ -51,7 +51,8 @@ export default function Projects() {
       id="projects"
       className="relative flex flex-col justify-center items-center min-h-screen px-4 sm:px-6 md:px-12 py-32"
     >
-      <h2 className="text-3xl sm:text-4xl font-bold text-white text-center mb-12">
+      {/* Title */}
+      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-10 sm:mb-12 text-center w-full max-w-2xl">
         Projects
       </h2>
 

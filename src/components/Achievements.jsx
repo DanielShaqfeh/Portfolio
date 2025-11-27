@@ -9,7 +9,7 @@ const certificates = [
 export default function Achievements() {
   return (
     <div className="relative flex flex-col justify-center items-center min-h-screen px-4 sm:px-6 md:px-32 py-32">
-      <h2 className="text-3xl sm:text-4xl font-heading text-white text-center mb-12">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-10 sm:mb-12 text-center w-full max-w-2xl">
         Achievements
       </h2>
 
