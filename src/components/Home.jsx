@@ -27,7 +27,7 @@ export default function Home() {
           {typedName}
           <span className="border-r-2 border-white animate-pulse ml-1"></span>
         </h1>
-
+        
         {/* Description */}
         <p className="text-white/80 text-sm sm:text-base md:text-lg mb-6">
           Full-stack Developer & Competitive Programmer - ACPC Finalist. Loves solving coding problems and exploring new algorithms and technologies.
