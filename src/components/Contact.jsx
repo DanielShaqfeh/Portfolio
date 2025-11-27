@@ -13,7 +13,7 @@ export default function Contact() {
         </p>
 
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:danielshaqfeh@gmail.com"
           className="
             inline-flex items-center gap-2 px-6 py-3 
             bg-white/10 backdrop-blur-sm 
