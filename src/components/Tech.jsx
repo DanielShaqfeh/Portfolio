@@ -1,4 +1,6 @@
 import { FaJava } from "react-icons/fa";
+import SpotlightCard from "./SpotlightCard";
+
 import {
   SiJavascript,
   SiTypescript,
@@ -48,29 +50,18 @@ export default function Tech() {
       id="tech"
       className="relative flex flex-col justify-center items-center min-h-screen px-4 sm:px-6 md:px-12 py-32"
     >
-      {/* Title */}
       <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-10 sm:mb-12 text-center w-full max-w-2xl">
         Tech & Tools
       </h2>
 
-      {/* Tech Grid */}
-      <div
-        className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 md:gap-8 ">
+      <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 md:gap-8">
         {technologies.map((tech) => {
           const Icon = tech.icon;
           return (
-            <div
+            <SpotlightCard
               key={tech.name}
-              className="
-                flex flex-col items-center justify-center
-                p-4
-                rounded-xl
-                bg-white/5 backdrop-blur-md
-                hover:bg-white/10
-                transition-all duration-300
-                cursor-pointer
-                shadow-md shadow-black/20
-              "
+              className="p-4 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-black/5 transition-all duration-300 cursor-pointer shadow-md shadow-black/20 flex flex-col items-center justify-center"
+              spotlightColor="rgba(96, 165, 250, 0.35)"
             >
               <div className="text-2xl md:text-4xl lg:text-6xl">
                 <Icon color={tech.color} />
@@ -78,7 +69,7 @@ export default function Tech() {
               <span className="mt-2 text-white text-xs sm:text-sm md:text-base text-center">
                 {tech.name}
               </span>
-            </div>
+            </SpotlightCard>
           );
         })}
       </div>
