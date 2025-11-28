@@ -46,10 +46,11 @@ export default function Experience() {
                   backdrop-blur-sm
                   border border-white/50
                   rounded 
-                  text-white text-sm
+                  text-blue-400 text-sm
                   shadow-sm shadow-black/40
                   hover:bg-white/10 transition
                   px-2 py-1 rounded 
+                  cursor-pointer
                 "
               >
                 {item}
