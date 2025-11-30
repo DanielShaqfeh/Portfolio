@@ -60,13 +60,13 @@ export default function Tech() {
           return (
             <SpotlightCard
               key={tech.name}
-              className="p-4 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-black/5 transition-all duration-300 cursor-pointer shadow-md shadow-black/20 flex flex-col items-center justify-center"
+              className="p-2 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-black/5 transition-all duration-300 cursor-pointer shadow-md shadow-black/20 flex flex-col items-center justify-center"
               spotlightColor="rgba(96, 165, 250, 0.35)"
             >
-              <div className="text-2xl md:text-4xl lg:text-6xl">
+              <div className="text-xl md:text-2xl lg:text-3xl">
                 <Icon color={tech.color} />
               </div>
-              <span className="mt-2 text-white text-xs sm:text-sm md:text-base text-center">
+              <span className="mt-2 text-white text-xs sm:text-sm  text-center">
                 {tech.name}
               </span>
             </SpotlightCard>

@@ -48,7 +48,7 @@ export default function Experience() {
                   rounded 
                   text-blue-400 text-sm
                   shadow-sm shadow-black/40
-                  hover:bg-white/10 transition
+                  hover:bg-white/15 transition
                   px-2 py-1 rounded 
                   cursor-pointer
                 "
