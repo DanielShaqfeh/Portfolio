@@ -15,7 +15,7 @@ const SpotlightCard = ({ children, className = '', spotlightColor = 'rgba(96, 16
 
   const handleFocus = () => {
     setIsFocused(true);
-    setOpacity(0.9);
+    setOpacity(0.2);
   };
 
   const handleBlur = () => {
@@ -24,7 +24,7 @@ const SpotlightCard = ({ children, className = '', spotlightColor = 'rgba(96, 16
   };
 
   const handleMouseEnter = () => {
-    setOpacity(0.9);
+    setOpacity(0.2);
   };
 
   const handleMouseLeave = () => {

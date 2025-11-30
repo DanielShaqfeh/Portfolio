@@ -61,7 +61,7 @@ export default function Tech() {
             <SpotlightCard
               key={tech.name}
               className="p-2 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-black/5 transition-all duration-300 cursor-pointer shadow-md shadow-black/20 flex flex-col items-center justify-center"
-              spotlightColor="rgba(96, 165, 250, 0.35)"
+              spotlightColor={tech.color }
             >
               <div className="text-xl md:text-2xl lg:text-3xl">
                 <Icon color={tech.color} />
