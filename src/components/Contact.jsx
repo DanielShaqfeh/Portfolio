@@ -16,9 +16,10 @@ export default function Contact() {
           href="mailto:danielshaqfeh@gmail.com"
           className="
             inline-flex items-center gap-2 px-6 py-3 
-            bg-white/10 backdrop-blur-sm 
+          bg-white/5 backdrop-blur-sm  
+            border border-blue-400/50
             text-white font-medium rounded-lg 
-            hover:bg-white/20
+          hover:border-blue-400
             transition-colors duration-300
             justify-start
           "
